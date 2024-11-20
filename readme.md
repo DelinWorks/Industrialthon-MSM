@@ -8,7 +8,7 @@ YOLOv5 is used for object detection and is trained on custom datasets.
 see: https://github.com/ultralytics/yolov5 to train your custom datasets.
 
 ## Datasets used.
-1. Dataset 'construction-v2-dataset' is used to detect people and personal protictive equipment.
+1. Dataset 'construction-v2-dataset' is used to detect people and personal protective equipment.
 2. Dataset 'leaks-v3-dataset' is used to detect oil leaks and fluids on the ground.
 3. Dataset 'garbage-v2-dataset' is used to detect garbage and waste in the facility.
 
