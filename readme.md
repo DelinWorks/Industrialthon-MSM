@@ -38,7 +38,7 @@ see: https://github.com/ultralytics/yolov5 to train your custom datasets.
    ```
 NOTE: the number of layers and parameters is the same because we are using yolov5s (small) weights for fast training
       since we are time constrained, yolov5m and yolov5l (medium and large) can be used for better object detection and
-      accuracy. yolov5-sahi (Slicing Aided Hyper Inference) can be used to help in detecting small objects.
+      accuracy. yolov5-sahi (Slicing Aided Hyper Inference) can be used to help in detecting small or far objects.
       see: https://github.com/zahidesatmutlu/yolov5-sahi
       
 ## Usage
@@ -49,7 +49,7 @@ NOTE: the number of layers and parameters is the same because we are using yolov
    pip install torch torchvision torchaudio
    pip install opencv-contrib-python
    ```
-2. Train your own custom dataset or use the pretrained ones
+2. Train your own custom model or use the pretrained ones. `see models folder`
    ```
    python yolov5/train.py --batch 16 --epochs 20 --data dataset/data.yaml --weights yolov5s.pt
    ```
