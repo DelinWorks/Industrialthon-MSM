@@ -61,6 +61,11 @@ NOTE: the number of layers and parameters is the same because we are using yolov
 - Realtime Object detection and recognition using GPU acceleration.
 - Detect multiple types of objects from custom datasets.
 
+## Example screen shots
+![image](https://github.com/user-attachments/assets/3fab06fe-5a8e-43d9-8e99-3e8d2776e358)
+![image](https://github.com/user-attachments/assets/5666fec6-5b5b-4be2-8b69-b958610f160b)
+![image](https://github.com/user-attachments/assets/fca185af-c0ea-415d-8859-9dea0380dab6)
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
