@@ -9,9 +9,9 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Using device: {device}")
 
 # Load the pre-trained YOLOv5 models
-safety_equipment_model = torch.hub.load('ultralytics/yolov5', 'custom', path="construction-v2.pt", force_reload=True)
-factory_waste          = torch.hub.load('ultralytics/yolov5', 'custom', path="garbage-v2.pt", force_reload=True)
-ground_fluids          = torch.hub.load('ultralytics/yolov5', 'custom', path="leaks-v3.pt", force_reload=True)
+safety_equipment_model = torch.hub.load('ultralytics/yolov5', 'custom', path="models/construction-v2.pt", force_reload=True)
+factory_waste          = torch.hub.load('ultralytics/yolov5', 'custom', path="models/garbage-v2.pt", force_reload=True)
+ground_fluids          = torch.hub.load('ultralytics/yolov5', 'custom', path="models/leaks-v3.pt", force_reload=True)
 
 # detect with image file directly without camera from test folder.
 curImg = 0
