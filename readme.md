@@ -1,7 +1,6 @@
 ---
 
 # Industrialthon PPE Computer Vision Project
-
 Manufacturing Safety and Equipment YOLOv5 trained models
 
 ## Models
@@ -41,11 +40,14 @@ NOTE: the number of layers and parameters is the same because we are using yolov
       since we are time constrained, yolov5m and yolov5l (medium and large) can be used for better object detection and
       accuracy. yolov5-sahi (Slicing Aided Hyper Inference) can be used to help in detecting small objects.
       see: https://github.com/zahidesatmutlu/yolov5-sahi
+      
 ## Usage
-
-1. Install the needed libraries
+1. Install required dependencies 
    ```
-   
+   pip install opencv-python
+   pip install ultralytics
+   pip install torch torchvision torchaudio
+   pip install opencv-contrib-python
    ```
 2. Train your own custom dataset or use the pretrained ones
    ```
@@ -55,6 +57,14 @@ NOTE: the number of layers and parameters is the same because we are using yolov
    ```
    yolov5m.pt, yolov5l.pt, yolov5x.pt (medium, large and extra large weights)
    ```
+4. Run `MSD.py` to test object detection through camera using OpenCV.
+5. Run `MSD2.py` to test object detection using images in test folder (press n to cycle images).
+
+## Nvidia CUDA (GPU acceleration)
+You need to have GPU acceleration enabled for faster peformance, otherwise CPU is used
+look up a guide on how to install nvidia cuda drivers on your machine if it has an nvidia gpu.
+for cuda ensure you have the graphics drivers installed along with Nvidia CUDA toolkit
+https://developer.nvidia.com/cuda-downloads
 
 ## Features
 
