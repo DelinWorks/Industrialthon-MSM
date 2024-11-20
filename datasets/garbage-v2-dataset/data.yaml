@@ -1,0 +1,13 @@
+train: garbage-v2-dataset/train/images
+val: garbage-v2-dataset/valid/images
+test: garbage-v2-dataset/test/images
+
+nc: 1
+names: ['waste']
+
+roboflow:
+  workspace: trash-6emsn
+  project: trash3-qmf1n
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trash-6emsn/trash3-qmf1n/dataset/1

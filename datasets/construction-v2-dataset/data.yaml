@@ -1,0 +1,13 @@
+train: construction-v2-dataset/train/images
+val: construction-v2-dataset/valid/images
+test: construction-v2-dataset/test/images
+
+nc: 4
+names: ['Boots', 'Helmet', 'Person', 'Vest']
+
+roboflow:
+  workspace: construction-worker
+  project: safety-rzpiy-mevio
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/construction-worker/safety-rzpiy-mevio/dataset/1
